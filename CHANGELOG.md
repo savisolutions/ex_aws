@@ -1,3 +1,29 @@
+v2.1.7
+
+- Various documentation updates
+- Add `comprehend` endpoint
+- Support firehose in region ca-central-1
+- More documentation fixes
+- Add github workflow actions for CI
+- Add us-east-2 endpoint for SES
+- Use :crypto.mac/4 rather than the deprecated :crypto.hmac/3 when available
+- Support virtual-host style S3 buckets
+- Fix presigned URLs with embedded query parameter strings
+- Support reading profile for CLI config from AWS_PROFILE environment variable
+
+v2.1.6
+
+- Fixes/updates for various service endpoints
+- Add support form Chime, via ex_chime_aws
+- Typing fix for HTTP content-lenght header
+- Fix warnings for Elixir 1.11
+- Increase minimum Elixir version to 1.5
+- Update and tidy docs and README
+
+v2.1.5
+
+- Elixir 1.11 compatibility tweak
+
 v2.1.3
 
 - Relax Jason version
